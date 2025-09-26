@@ -11,3 +11,18 @@
 7. On models/item ur going to put the json that specifies how your item should be rendered
 8. On the textures/item ur going to put the textures for the item
 9. Then u need to make the item available on creative trough a menu with the accept method
+
+## Blocks
+
+1. First u need a register
+2. Then u make a function to register and call that function on the Mods constructor
+3. The thing with blocks is that u also need to register an item that is associated with that block
+    1. So first we make the helper functions to register the item
+    2. and the helper function to register the block at the same time registering the item
+4. Then we create the block
+5. on the lang directory we place the translation for the block
+6. and then we will need a new directory called blockstates that needs to specify how the block is presented
+7. in the models we specify both the block in the block directory and the item (the item points to the block saying it's
+   its parent)
+8. we place the texture on the block directory
+9. and we make the block available trough the creative menu
