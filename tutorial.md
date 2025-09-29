@@ -26,3 +26,13 @@
    its parent)
 8. we place the texture on the block directory
 9. and we make the block available trough the creative menu
+
+## Creative Mode Tabs
+
+1. First u need the register
+2. Then the function to register and call that on the mod constructor
+3. Then u create the creative mod tab with a supplier and use the builder to fill it with items and give it a title and
+   such
+    1. Be aware that next tabs should have the function withTabsBefore to prevent tabs from changing places on different
+       runs
+4. To finalize u give it a translation in lang
